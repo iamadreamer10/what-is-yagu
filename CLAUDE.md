@@ -5,18 +5,19 @@
 
 ## 문서 위치
 
-- `docs/plan.md`: 계획 문서 (Context, Scope, Plan, Verification, Prerequisites, Glossary, Backlog)
-- `docs/decisions.md`: 결정 문서 (한 번 기재된 결정은 지우지 않는다)
+- `docs/plan.md`: 전체 계획 문서 (Context, Scope, Plan, Verification, Prerequisites, Glossary, Backlog)
+- `docs/decisions.md`: 전체 결정 목차 (번호, 제목, 위치)
+- `docs/specs/<날짜-작업명>/plan.md`, `decisions.md`: 작업 단위별 계획과 결정 본문
 - `docs/eval/`: 평가 질문 세트 (야알못의 실제 질문 원문)
 
 ## 작업 규칙
 
 1. 작업을 시작하기 전에 `docs/plan.md`의 Scope를 확인한다. Scope 밖의 작업이면 진행하기 전에 먼저 묻는다.
-2. 기획/설계/기술 결정이 나면 `docs/decisions.md` 끝에 새 항목을 추가한다.
+2. 기획/설계/기술 결정이 나면 현재 작업 단위의 `docs/specs/<날짜-작업명>/decisions.md` 끝에 새 항목을 추가하고, `docs/decisions.md` 목차에 한 줄 추가한다. 새 작업 단위를 시작하면 `docs/specs/<날짜-작업명>/` 폴더를 만든다.
    - 형식: 번호(D-000), 날짜, 상태, 문제(출처, 영향도), 옵션, 선택, 근거
-   - 출처는 누가 제안했는지 적는다: 나 / AI / 스터디원
-3. 기존 결정은 지우거나 고쳐 쓰지 않는다. 결정이 바뀌면 기존 항목의 상태만 "대체됨 (D-xxx)"으로 바꾸고, 새 항목에 무엇을 대체했는지 적는다.
-4. 범위, 일정, 검증 방법이 바뀌면 `docs/plan.md`를 갱신하고, 그 이유는 `docs/decisions.md`에 남긴다.
+   - 번호는 프로젝트 전체에서 이어 매긴다. 출처는 누가 제안했는지 적는다: 나 / AI / 스터디원
+3. 기존 결정은 지우거나 고쳐 쓰지 않는다. 결정이 바뀌면 기존 항목의 상태만 "대체됨 (D-xxx)"으로 바꾸고(본문 파일에서만, 목차에는 상태를 적지 않는다), 새 항목에 무엇을 대체했는지 적는다.
+4. 범위, 일정, 검증 방법이 바뀌면 `docs/plan.md`를 갱신하고, 그 이유는 해당 작업 단위의 `decisions.md`에 남긴다.
 5. 근거 문서는 직접 쓴다. 외부 사이트(예: 야구나라)의 글을 복사하지 않는다. 구조만 참고한다.
 6. 문서는 한국어로 쓴다.
 
