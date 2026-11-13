@@ -8,7 +8,7 @@
 - 위치: Notion 개인 워크스페이스 `취업 자료 정리 / 야구 그게 뭔데 / 프로젝트 자료 / API 명세서`
   - 페이지: https://app.notion.com/p/41751caa6b2d800496cfd6ea0b6e2cd1
   - 데이터베이스 `엔드포인트`: `collection://d1451caa-6b2d-82fc-b28b-8778b7c44a25`
-- 원본: `docs/specs/<날짜>-F1-<이름>/api.yaml` (기능별)
+- 원본: `docs/specs/<번호>-F1-<이름>/api.yaml` (기능별)
 
 ## 속성 대응
 

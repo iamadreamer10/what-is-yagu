@@ -54,7 +54,7 @@ EC2 1대 (docker compose)
 | 산출물 | 형식 | 둘 곳 |
 | --- | --- | --- |
 | 모든 기능 개요 + 규모 | Markdown | `docs/design/features.md` |
-| 기능 상세 명세 | Markdown (템플릿: `docs/templates/`) | `docs/specs/<날짜>-F1-<이름>/spec.md` |
+| 기능 상세 명세 | Markdown (템플릿: `docs/templates/`) | `docs/specs/<번호>-F1-<이름>/spec.md` |
 | ERD | Mermaid `erDiagram`. 그림은 한 곳에만 | `docs/design/erd.md` |
 | API 전체 목록 | Markdown 표 | `docs/design/api.md` |
 | API 상세 | OpenAPI 3 yaml (원본). Notion은 보기용 사본 | 기능 폴더 `api.yaml` / Notion (`docs/templates/notion-api-sync.md`) |
@@ -83,7 +83,7 @@ docs/
 ├─ principles.md           대원칙 (이 문서)
 ├─ templates/              명세 템플릿, Notion 동기화 규칙
 ├─ design/                 지금 상태: 전체 설계
-├─ specs/<날짜>-<작업명>/   작업 단위: plan.md, decisions.md (과정 기록)
+├─ specs/<번호>-<작업명>/   작업 단위: plan.md, decisions.md (과정 기록)
 │                          기능 단위면 spec.md, api.yaml, wireframe/ (지금 상태)
 └─ eval/                   평가 질문 세트
 ```

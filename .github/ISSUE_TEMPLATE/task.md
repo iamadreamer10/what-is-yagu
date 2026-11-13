@@ -31,7 +31,7 @@ labels: []
 - [ ] 실패 케이스 (명세 Status 표)
 
 ## 🔗 연관 명세
-- 기능 명세: `docs/specs/<날짜>-F1-<이름>/spec.md`
+- 기능 명세: `docs/specs/<번호>-F1-<이름>/spec.md`
 - ERD 엔티티: (`docs/design/erd.md`의 엔티티 이름)
 - API: (`api.yaml`의 엔드포인트)
 
