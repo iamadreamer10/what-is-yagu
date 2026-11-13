@@ -38,3 +38,4 @@
 | D-031 | 브랜치는 develop과 main을 둔다 | `specs/002-1주차-설계/decisions.md` |
 | D-032 | Notion은 API 명세만 다루고, 진행 상태는 GitHub Issues로 관리한다 | `specs/002-1주차-설계/decisions.md` |
 | D-033 | 작업 단위 폴더 이름은 번호 + 작업명으로 한다 | `specs/002-1주차-설계/decisions.md` |
+| D-034 | 스터디 기록 양식에 맞춰 결정에 "결과"를 더하고, 트러블슈팅·주간 보고 템플릿을 둔다 | `specs/002-1주차-설계/decisions.md` |

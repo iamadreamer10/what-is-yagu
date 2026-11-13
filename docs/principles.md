@@ -81,15 +81,21 @@ EC2 1대 (docker compose)
 docs/
 ├─ plan.md, decisions.md   전체 계획, 결정 목차
 ├─ principles.md           대원칙 (이 문서)
-├─ templates/              명세 템플릿, Notion 동기화 규칙
+├─ templates/              명세·트러블슈팅·주간 보고 템플릿, Notion 동기화 규칙
 ├─ design/                 지금 상태: 전체 설계
 ├─ specs/<번호>-<작업명>/   작업 단위: plan.md, decisions.md (과정 기록)
 │                          기능 단위면 spec.md, api.yaml, wireframe/ (지금 상태)
+├─ troubleshooting/        트러블슈팅 기록 T-<번호>-<제목>.md (과정 기록)
 └─ eval/                   평가 질문 세트
 ```
 
 - 지금 상태(`design/`, 기능 폴더의 spec·api·wireframe)는 항상 최신으로 고쳐 쓰고, 왜 바뀌었는지는 결정 기록에 남긴다.
-- 과정 기록(plan.md, decisions.md)의 결정은 지우지 않는다.
+- 과정 기록(plan.md, decisions.md, 트러블슈팅)의 결정은 지우지 않는다. 결정의 "결과" 항목만 나중에 덧붙일 수 있다.
+
+### 2.6 기록과 보고 (D-034)
+
+- 기술 결정과 트러블슈팅의 원본은 레포에 둔다. 공용 Notion(주간 보고, 기술 기록 DB)에는 요약과 링크만 올린다.
+- 주간 보고는 AI가 레포의 증거로 초안을 쓰고 내가 다듬는다. "배운 것 / 다시 한다면"은 내가 직접 쓴다.
 
 ## 3. 테스트 (D-028)
 
