@@ -73,7 +73,9 @@
 
 - Claude Code는 Pro 계정으로 로그인한다. `ANTHROPIC_API_KEY` 환경 변수가 있으면 API 요금으로 나가므로 주의한다.
 - 서비스용 AI API 크레딧과 비용 확인 (1주차)
-- 백엔드 Spring. 프론트엔드와 DB는 1주차 대원칙에서 정한다. LLM 제공사, 벡터 저장소처럼 기능에 따라 달라지는 기술은 1주차에 가정하고, 각 기능 구현 전에 그 기능에 필요한 만큼 확정한다. (D-014, D-015, D-016)
+- 기술스택: 백엔드 Spring, 프론트엔드 React + Vite, DB PostgreSQL + pgvector, 인프라 AWS EC2 1대 + Docker Compose, CI/CD GitHub Actions, Java 21, Spring Boot는 Spring AI와 호환되는 최신 안정 버전 (D-009, D-017~D-022).
+- AWS는 신규 가입 무료 플랜 크레딧(100달러) 안에서 운영한다. 결제 알림(Budget)을 먼저 설정한다. (D-020)
+- LLM 제공사, 임베딩 방식처럼 기능에 따라 달라지는 기술은 1주차에 가정하고, 각 기능 구현 전에 그 기능에 필요한 만큼 확정한다. (D-014, D-015, D-016)
 
 ## 6. Glossary (용어)
 

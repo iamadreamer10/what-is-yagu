@@ -21,3 +21,12 @@
 | D-014 | SDD 툴 없이 단계를 직접 구성한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
 | D-015 | 1주차 목표를 설계 산출물까지로 넓힌다 | `specs/2026-11-12-1주차-설계/decisions.md` |
 | D-016 | SDD 단계는 기능 단위로 돈다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-017 | 기술스택은 효율을 기준으로 고른다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-018 | 프론트엔드는 React + Vite(SPA)로 한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-019 | DB는 PostgreSQL + pgvector로 한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-020 | 인프라는 AWS 무료 플랜 안에서 EC2 1대 + Docker Compose로 한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-021 | CI/CD는 GitHub Actions로 한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-022 | Java 21을 쓰고, Spring Boot는 Spring AI와 호환되는 최신 안정 버전으로 한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-023 | 와이어프레임은 Stitch로 만들고, 프롬프트와 결과를 레포에 남긴다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-024 | ERD와 배포 아키텍처는 Mermaid로 그린다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-025 | API 명세는 레포의 OpenAPI 파일을 원본으로 두고, Notion에 동기화한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
