@@ -32,3 +32,4 @@
 | D-025 | API 명세는 레포의 OpenAPI 파일을 원본으로 두고, Notion에 동기화한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
 | D-026 | 문서를 "지금 상태"와 "과정 기록"으로 나눠 둔다 | `specs/2026-11-12-1주차-설계/decisions.md` |
 | D-027 | Notion API 명세 템플릿과 레포 OpenAPI의 대응 규칙을 정한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-028 | 테스트 원칙을 정한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
