@@ -13,6 +13,7 @@
 - `docs/specs/<날짜-작업명>/plan.md`, `decisions.md`: 작업 단위별 계획과 결정 본문 (과정 기록)
 - `docs/specs/<날짜>-F1-<이름>/spec.md`, `api.yaml`, `wireframe/`: 기능별 상세 명세·API·화면 (지금 상태)
 - `docs/eval/`: 평가 질문 세트 (야알못의 실제 질문 원문)
+- `.github/`: Issue·PR 템플릿, `tools/ai-usage.py`: PR용 AI 사용량 집계
 - 현재 설계를 알려면 `docs/design/`과 해당 기능 폴더를 읽는다. ERD 그림은 `docs/design/erd.md`에만 둔다. (D-026)
 
 ## 작업 규칙
@@ -32,6 +33,14 @@
 - 코드를 수정하면 관련 테스트(기능 태그)를 먼저 실행하고 결과를 보고한다. 같은 문제로 세 번 고쳐도 실패하면 멈추고 원인을 보고한다.
 - main에 직접 반영하지 않는다. PR, CI 통과, 사람 승인을 거친다.
 - 테스트 이름에 수용 기준 ID를 붙이고, 테스트를 쓸 때 어느 층(L1~L5)인지 밝힌다.
+
+## 작업 관리 규칙 (요약, 본문은 `docs/principles.md` 4장)
+
+- 작업을 나누고 완료를 판단하는 건 사람이다. AI는 작업을 임의로 나누거나 "됐다"고 판정하지 않고, 테스트 결과와 수용 기준 충족 여부만 보고한다.
+- AI는 GitHub 입력(Issue 작성, 라벨·보드, 브랜치, PR, 체크리스트)을 `gh`로 맡는다. Issue를 직접 닫지 않는다.
+- 브랜치: `feat/`·`fix/`·`test/`·`docs/`·`chore/` + Issue 번호 + 요약. PR은 develop으로 보내고 본문에 `Closes #번호`를 쓴다.
+- PR의 "AI 사용 기록"은 `python tools/ai-usage.py --since <브랜치를 만든 시각>` 결과로 채운다.
+- 세션은 작업 하나 단위로 짧게 쓴다.
 
 ## 설계 원칙 (요약)
 

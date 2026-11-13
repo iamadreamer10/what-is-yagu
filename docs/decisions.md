@@ -33,3 +33,7 @@
 | D-026 | 문서를 "지금 상태"와 "과정 기록"으로 나눠 둔다 | `specs/2026-11-12-1주차-설계/decisions.md` |
 | D-027 | Notion API 명세 템플릿과 레포 OpenAPI의 대응 규칙을 정한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
 | D-028 | 테스트 원칙을 정한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-029 | AI 사용 원칙(비용 최적화)을 정한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-030 | 작업 관리는 GitHub Issues로 하고, 판단은 내가, 입력은 AI가 한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-031 | 브랜치는 develop과 main을 둔다 | `specs/2026-11-12-1주차-설계/decisions.md` |
+| D-032 | Notion은 API 명세만 다루고, 진행 상태는 GitHub Issues로 관리한다 | `specs/2026-11-12-1주차-설계/decisions.md` |
