@@ -7,8 +7,13 @@
 
 - `docs/plan.md`: 전체 계획 문서 (Context, Scope, Plan, Verification, Prerequisites, Glossary, Backlog)
 - `docs/decisions.md`: 전체 결정 목차 (번호, 제목, 위치)
-- `docs/specs/<날짜-작업명>/plan.md`, `decisions.md`: 작업 단위별 계획과 결정 본문
+- `docs/principles.md`: 대원칙 (기술스택, 산출물 형식, 테스트 등)
+- `docs/templates/`: 명세 템플릿
+- `docs/design/`: 지금 상태의 전체 설계 (features, erd, api, screens, architecture). 항상 최신으로 고쳐 쓴다.
+- `docs/specs/<날짜-작업명>/plan.md`, `decisions.md`: 작업 단위별 계획과 결정 본문 (과정 기록)
+- `docs/specs/<날짜>-F1-<이름>/spec.md`, `api.yaml`, `wireframe/`: 기능별 상세 명세·API·화면 (지금 상태)
 - `docs/eval/`: 평가 질문 세트 (야알못의 실제 질문 원문)
+- 현재 설계를 알려면 `docs/design/`과 해당 기능 폴더를 읽는다. ERD 그림은 `docs/design/erd.md`에만 둔다. (D-026)
 
 ## 작업 규칙
 
